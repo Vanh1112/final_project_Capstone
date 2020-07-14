@@ -457,6 +457,8 @@ A sample of the imported data is shown.
 | JC356571 | 07/19/2019 09:00:00 PM | 031XX W HARRISON ST   | OTHER OFFENSE       | 24.0 | 41.873699 | -87.704705 |
 | JC405144 | 08/23/2019 11:00:00 PM | 019XX W SCHILLER ST   | THEFT               | 1.0  | 41.907177 | -87.675381 |
 | JC379670 | 08/05/2019 12:30:00 PM | ST074XX S HARVARD AVE | BATTERY             | 6.0  | 41.759037 | -87.633299 |
+
+
 This data was then processed as follows:
 
 1. Move September 2017 dates to September 2018
