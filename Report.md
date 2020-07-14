@@ -709,7 +709,7 @@ The Decision Tree model was particularly fast taking only 12 seconds per model. 
 
 ### Logistic Regression & Naive Bayes
 
-Logistic Regression and Naive Bayes models did not return any models with an accuracy greater that 0.61.
+Logistic Regression and Naive Bayes models did not return any models with an accuracy greater that 0.6119 and 0.6038.
 
 ### Decision Forest using a Random Forest
 
