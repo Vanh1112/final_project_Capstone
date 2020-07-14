@@ -498,15 +498,15 @@ df[['primary_description', 'case']].groupby(
 
 To get a better understanding of the data we will now visualise it. The number of crimes per month, day and hour were calculated:
 
-![image](./capstone_images/cases_month.png)
+![image](./capstone_images/case_month.png)
 
- ![image](./capstone_images/cases_day.png)
+ ![image](./capstone_images/case_day.png)
 
-![image](./capstone_images/cases_hour.png)
+![image](./capstone_images/case_hour.png)
 
 Looking at the top three crimes it is clearly visible that the occurances of theft rise gretly during daylight hours and particularly between the hours of 3:00 pm and 5:00 pm.
 
-![image](./capstone_images/cases_hour_area.png)
+![image](./capstone_images/case_hour_area.png)
 
 
 Unsuprisingly there little obvious variation in the number of crimes committed per month other than an apparent drop-off in February. There is a small increase in crime reported at the weekend, Saturday and
@@ -582,17 +582,17 @@ It is possible to fully automate this through full iteration but in order to cle
 
 A couple of example of the generated maps are shown below. 
 
-The first map below is the top rated venue _Millennium Park_. The location of the attraction and the 10 top rated venues are clearly shown. The Top Venue is shown using a blue marker, the restaurants are shown using a red marker. Also shown is the heatmap of cimes within 750 meters over the course of the entire previous year. The hotter, redder, the heatmap the more crimes there are recorded. Some Restaurants, for example the two located at the top left of the map, appear to be in areas where crime is quite frequent. On the other hand others are in areas which are obviously not as crime ridden.
+The first map below is the top rated venue _Millennium Park_. The location of the attraction and the 10 top rated venues are clearly shown. The Top Venue is shown using a blue marker, the restaurants are shown using a red marker. Also shown is the heatmap of cimes within 750 meters over the course of the entire previous year. The hotter, redder, the heatmap the more crimes there are recorded. Some Restaurants, for example the one located at the top left of the map, appear to be in areas where crime is quite frequent. On the other hand others are in areas which are obviously not as crime ridden.
 
 ![image](./capstone_images/venue_01.png)
 
 
 
-The second map is for _The Music Box Theatre_. It is immediately apparent that the crime rate in this area of the city is much lower:
+The second map is for _Grant Park_. It is immediately apparent that the crime rate in this area of the city is much lower:
 
-![image](./capstone_images/venue_02.png)
+![image](./capstone_images/venue.png)
 
-Visiting this venue appears to be a much safer option with very little crime recored in the immediate vicinity. Also shown in the map above is the extra details provided about each Restaurant. The restaurant name, *Tango Sur*, it's food type _Argentinian_, and its average score are given.
+Visiting this venue appears to be a much safer option with very little crime recored in the immediate vicinity. Also shown in the map above is the extra details provided about each Restaurant. The restaurant name, *Ranallis*, it's food type _Pizza Places_, and its average score are given.
 
 ## Modelling
 
@@ -746,7 +746,7 @@ Randon forest was determined to be the best model.
 
 Ramdom Forest is the best model scoring highest in all measurements, F1-Score, Jaccard and Log Loss. Let's now create a new model. The September crime data will become the unseen test data for the final model.
 
-The Top Two Crimes Feature Features Dataframe was created again and split into Training Data, everything except December, and Test Data, September.
+The Top Two Crimes Feature Features Dataframe was created again and split into Training Data, everything except December, and Test Data, July.
 
 ### Predict the Final Performance of the Model
 
@@ -795,7 +795,7 @@ This shows that the most predictive models are:
 
 After these the day and the month of the crime are weak predicters at ~1.1%. The other features, particulraly the hour the crime took place, are hardly predictive at all. A plot of this is shown below:
 
-![image](./capstone_images/features.png)
+![image](./capstone_images/feature.png)
 
 ## Results & Prediction
 
@@ -892,13 +892,13 @@ We will look at the following 4 venues:
 
 The Distance Dataframe is recreated again but this time all crimes are included.
 
-The first two images are are of Millennium Park and of The Chicago Theatre. Both of these venues were identified as likely to be susceptible to crime.
+The first two images are are of Millennium Park and of Chicago Riverwalk. Both of these venues were identified as likely to be susceptible to crime.
 
 ![image](./capstone_images/final_01.png)
 
 ![image](./capstone_images/final_02.png)
 
-The next images are fromGrant Hill and Nature Boardwalk. Although both show signs of criminal activity, both have far less than Millennium Park and The Chicago Theatre.
+The next images are from Binny's Beverage Depot and Chicago Lakefront Trail. Both don't show signs of criminal activity
 
 ![image](./capstone_images/final_03.png)
 
