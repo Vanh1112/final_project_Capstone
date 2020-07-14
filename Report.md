@@ -934,10 +934,15 @@ The following are suggestions how this project could b efurther developed:
 # References
 
 [1] [Forsquare API](https://developer.foursquare.com/)
+
 [2] [K-nearest Neighbors algorithm](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+
 [3] [Decision Tree algorithm](https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
+
 [4] [Logistic Regression algorithm](https://machinelearningmastery.com/logistic-regression-for-machine-learning/)
+
 [5] [Random Forest](https://towardsdatascience.com/random-forest-in-python-24d0893d51c0)
+
 [6] [Bernoulli Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 
 # Github
