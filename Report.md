@@ -961,6 +961,6 @@ https://drive.google.com/drive/folders/17i3m4lh_OMjeXEKkFIESUCuI3PQTo36K?usp=sha
 
 # Blogpost
 
-
+https://anhpham1112.blogspot.com/2020/07/the-battle-of-neighborhoods.html
 
 
