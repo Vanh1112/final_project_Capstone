@@ -418,8 +418,8 @@ A sample of the imported data is shown.
 
 This data was then processed as follows:
 
-1. Move September 2017 dates to September 2018
-   The extract of data used was taken mid September which meant that there was half a months data for September 2017 and half a months data for september 2018. These were combined to create a single month.
+1. Move July 2019 dates to July 2020
+   The extract of data used was taken mid September which meant that there was half a months data for July 2020 and half a months data for July 2020. These were combined to create a single month.
 2. Clean up the column names:
    1. Strip leading & trailing whitespace
    2. Replace multiple spaces with a single space
